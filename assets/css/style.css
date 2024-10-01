@@ -3,6 +3,7 @@
   --color-primary: #e66a62;
   --color-dark: #324e62;
   --color-light: #ffbca3;
+  --color-link: #8362ad;
 
   /* Font & Font Size */
   --font-primary: "Montserrat", sans-serif;
@@ -55,7 +56,7 @@ main {
 
 a {
   text-decoration: none;
-  color: var(--color-dark);
+  color: var(--color-link);
 }
 
 li {
@@ -234,6 +235,41 @@ footer a {
 }
 
 /* review */
+.section-review {
+  padding-bottom: 3.2rem;
+}
+
+.section-review h2 {
+  text-align: center;
+  margin: 2.4rem 0;
+  font-size: 3.2rem;
+}
+
+.review-card {
+  margin: 2.2rem auto;
+  max-width: 45rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 3.2rem;
+  background-color: var(--color-light);
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.review-text h4 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.review-text p {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.review-card img {
+  width: 19rem;
+}
 
 /*** team-page (team.html)***/
 .section-team {
