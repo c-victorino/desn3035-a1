@@ -38,6 +38,10 @@ body {
   color: var(--color-dark);
 }
 
+main {
+  background-color: var(--bg-main);
+}
+
 .center-box {
   display: flex;
   justify-content: center;
@@ -232,6 +236,43 @@ footer a {
 /* review */
 
 /*** team-page (team.html)***/
+.section-team {
+  padding: 4rem 0;
+}
+
+.section-team h1 {
+  margin: 7.2rem 0;
+  text-align: center;
+  font-size: 4.2rem;
+}
+
+.cheff {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.cheff p {
+  font-size: 2rem;
+  letter-spacing: 2px;
+  line-height: 2.2rem;
+  font-weight: 400;
+}
+
+.cheff img {
+  width: 45rem;
+  margin: 5rem 0;
+}
+
+iframe {
+  aspect-ratio: 16 / 9;
+  width: 65rem;
+}
+
+.video-center {
+  text-align: center;
+}
 
 /*** menu page (menu.html)***/
 .section-menu {
